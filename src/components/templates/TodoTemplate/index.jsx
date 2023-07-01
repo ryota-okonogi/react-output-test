@@ -1,8 +1,8 @@
 import { InputForm } from "../../atoms/InputForm";
 import { AddTodo } from "../../organisms/AddTodo";
 import { TodoList } from "../../organisms/TodoList";
-import styles from "./style.module.css";
 import { useTodo } from "../../../hooks/useTodo";
+import styles from "./style.module.css";
 
 // カスタムフックから状態とロジックを呼び出してコンポーネントにあてがう
 /*

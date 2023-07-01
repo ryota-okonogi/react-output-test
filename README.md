@@ -1,5 +1,5 @@
 # react-output-test
-react-output-sample
+react-output-test
 
 useState, Propsのみの状態管理で作成したTodoリストに対し、コンポーネントに定義した状態とロジックをカスタムフックに以降したアプリケーション
 

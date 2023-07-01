@@ -33,8 +33,17 @@ export const useTodo = () => {
 
       /**
        * Todo追加処理: 元の配列を破壊しないように配列のコピーを作成して、その値でstateを更新する
-       * スプレッド構文を使用する
        */
+
+      // concatの処理
+      // setOriginTodoList(
+      //   todoList.concat({
+      //     id: nextUniqueId,
+      //     title: addInputValue,
+      //   })
+      // );
+
+      // スプレッド構文を使用する
       const newTodoList = [
         ...originTodoList, // 元の配列を展開
         {
