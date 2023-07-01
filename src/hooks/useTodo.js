@@ -14,7 +14,7 @@ export const useTodo = () => {
   // 検索キーワード
   const [ searchKeyword, setSearchKeyword ] = useState("");
 
-  // 更新後のTodoList表示
+  // 表示用TodoList
   const showTodoList = useMemo(() => {
     return originTodoList.filter((todo) => { // propsのtodoListからtodo配列を生成し、そこから条件を付けてfilterする
       const regexp = new RegExp("^" + searchKeyword, "i"); // Regexpメソッドの引数に前方一致検索の条件を渡す
